@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+disable = import-error,missing-module-docstring,too-few-public-methods,unnecessary-ellipsis
+
+[REPORTS]
+fail-under = 10.0
