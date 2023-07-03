@@ -26,4 +26,4 @@ def run(log_level="INFO"):  # pragma: no cover
     svc.run()
 
 # Too lazy to create a proper CLI for this service, so just use "fire" here for now.
-fire.Fire(run)
+fire.Fire(run)  # pragma: no cover
