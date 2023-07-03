@@ -7,7 +7,7 @@ import broker
 from .config import ZeekSinkConfig
 from .zeek import ZeekBrokerClientContextManager
 
-class Sink(Protocol):
+class Sink(Protocol):  # pragma: no cover
     """Sink is a protocol for sink implementations."""
     def send(self, predictions: list[broker.zeek.Event]) -> None:
         """Send predictions to the sink."""
